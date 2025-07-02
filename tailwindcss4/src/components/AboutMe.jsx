@@ -1,7 +1,9 @@
 
 import me_maltese from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/me_maltese.gif";
 import me_fire_breath from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/me_fire_breath.gif";
-import me_cookies_girls from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/me_cookies_girls.gif";
+import me_cookies_girls from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/me_cookies.gif";
+import resume from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/Resume_Ramirez_2025.pdf";
+import cv from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/CV_Ramirez_2025.pdf";
 function AboutMe() {
   const borders = [me_maltese, me_fire_breath, me_cookies_girls];
   const choose_border = borders[Math.floor(Math.random() * borders.length)];
@@ -23,7 +25,10 @@ function AboutMe() {
             </p>
 
             <p>
-              Right now I'm at the crossroads between academia and industry. However, I'm mainly concerned with learning new things. Therefore, I'm open to any opportunity and I hope to find a job soon! Below are my resume and CV as well as projects and anything of interest.
+              Right now I'm at the crossroads between academia and industry. However, I'm mainly concerned with learning new things. Therefore, I'm open to any opportunity and I hope to find a job soon!
+            </p>
+            <p>
+              Here's my <a href={resume} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">resume</a> / <a href={cv} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">CV</a>.
             </p>
           </div>
         </div>
