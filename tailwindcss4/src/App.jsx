@@ -1,13 +1,35 @@
-import './App.css'
-import AboutMe from "../src/introduction/AboutMe"
+import './App.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./pages/About";
+import Documents from "./pages/Documents";
+import Projects from "./pages/Projects";
+import Hobbies from "./pages/Hobbies";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <About/>,
+  },
+  {
+    path: "/documents",
+    element: <Documents/>,
+  },  
+  {
+    path: "/hobbies",
+    element: <Hobbies/>,
+  },
+  {
+    path: "/projects",
+    element: <Projects/>,
+  }
+]);
 
 function App() {
-
   return (
-    <>
-      <AboutMe></AboutMe> 
-    </>
-  )
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
-export default App
+export default App;

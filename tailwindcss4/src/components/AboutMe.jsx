@@ -27,12 +27,24 @@ function AboutMe() {
             </p>
           </div>
         </div>
-
-        <img
-          src={choose_border}
-          alt="Picture of Oswaldo holding cookies and jug of milk"
-          className="w-86 h-auto object-cover rounded shadow-lg"
-        />
+        <div>
+            <img
+            src={choose_border}
+            alt="Picture of Oswaldo holding cookies and jug of milk"
+            className="w-86 h-auto object-cover rounded shadow-lg"
+            />
+            <div className="flex flex-row items-center gap-4 mt-4 justify-center">
+                <a href="mailto:oramirez10102@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../../public/post-office-svgrepo-com.svg" alt="Email" className="w-8 h-8"/>
+                </a>
+                <a href="https://github.com/oramirez2025" target="_blank" rel="noopener noreferrer">
+                    <img src="../../public/github-svgrepo-com.svg" alt="GitHub" className="w-8 h-8"/>
+                </a>
+                <a href="https://www.linkedin.com/in/oswaldo-ramirez2025/" target="_blank" rel="noopener noreferrer">
+                    <img src="../../public/linkedin-svgrepo-com.svg" alt="LinkedIn" className="w-8 h-8"/>
+                </a>
+            </div>
+        </div>
       </div>
     </div>
   );
