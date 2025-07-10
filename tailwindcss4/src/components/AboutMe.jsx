@@ -4,6 +4,9 @@ import me_fire_breath from "/Users/oramirez2025/oramirez2025.github.io/tailwindc
 import me_cookies_girls from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/me_cookies.gif";
 import resume from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/Resume_Ramirez_2025.pdf";
 import cv from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/CV_Ramirez_2025.pdf";
+import linkedin from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/linkedin-svgrepo-com.svg";
+import github from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/github-svgrepo-com.svg";
+import email from "/Users/oramirez2025/oramirez2025.github.io/tailwindcss4/public/post-office-svgrepo-com.svg";
 function AboutMe() {
   const borders = [me_maltese, me_fire_breath, me_cookies_girls];
   const choose_border = borders[Math.floor(Math.random() * borders.length)];
@@ -30,7 +33,7 @@ function AboutMe() {
             <p>
               Here's my <a href={resume} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">resume</a> / <a href={cv} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">CV</a>.
             </p>
-            <p>I'm thinking of adding more to the website like a hobbies page like music and games. Back in the summer of 2023, I got into music production so I'll probably include my soundcloud (if I build up the courage lol). Also, my friend introduced me to the game of StepMania and I've been playing that nonstop.
+            <p>I'm thinking of adding more to the website like a hobbies page with music and games. Back in the summer of 2023, I got into music production so I'll probably include my soundcloud (if I build up the courage lol). Also, my friend introduced me to the game of StepMania and I've been playing that frequently.
             </p>
             <p>
               If you find any typos or issues with the website please let me know!
@@ -45,13 +48,13 @@ function AboutMe() {
             />
             <div className="flex flex-row items-center gap-4 mt-4 justify-center">
                 <a href="mailto:oramirez10102@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <img src="../../public/post-office-svgrepo-com.svg" alt="Email" className="w-8 h-8"/>
+                    <img src={email} alt="Email" className="w-8 h-8"/>
                 </a>
                 <a href="https://github.com/oramirez2025" target="_blank" rel="noopener noreferrer">
-                    <img src="../../public/github-svgrepo-com.svg" alt="GitHub" className="w-8 h-8"/>
+                    <img src={github} alt="GitHub" className="w-8 h-8"/>
                 </a>
                 <a href="https://www.linkedin.com/in/oswaldo-ramirez2025/" target="_blank" rel="noopener noreferrer">
-                    <img src="../../public/linkedin-svgrepo-com.svg" alt="LinkedIn" className="w-8 h-8"/>
+                    <img src={linkedin} alt="LinkedIn" className="w-8 h-8"/>
                 </a>
             </div>
         </div>

@@ -33,7 +33,7 @@ function Industry() {
              support their academic journey.
            </p>
           <div>
-            <h3 className="text-2xl font-semibold pt-6">Contributions</h3>
+            <h3 className="text-2xl font-semibold pt-6">Contributions:</h3>
             <ul className="list-disc list-inside text-lg space-y-1 mt-2 text-gray-800">
               <li>
                 Revamped the FLIP National website using <strong>React</strong> and{' '}

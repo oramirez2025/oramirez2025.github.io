@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://oramirez2025.github.io",
+  "homepage": "https://oramirez2025.github.io/oramirez2025.github.io",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "react": "^19.1.0",
