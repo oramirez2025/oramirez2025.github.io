@@ -30,6 +30,11 @@ function AboutMe() {
             <p>
               Here's my <a href={resume} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">resume</a> / <a href={cv} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">CV</a>.
             </p>
+            <p>I'm thinking of adding more to the website like a hobbies page like music and games. Back in the summer of 2023, I got into music production so I'll probably include my soundcloud (if I build up the courage lol). Also, my friend introduced me to the game of StepMania and I've been playing that nonstop.
+            </p>
+            <p>
+              If you find any typos or issues with the website please let me know!
+            </p>
           </div>
         </div>
         <div>

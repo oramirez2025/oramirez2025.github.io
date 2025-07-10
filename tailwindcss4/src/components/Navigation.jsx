@@ -1,6 +1,6 @@
 function NavigationBar() {
   return (
-    <nav className="w-screen bg-blue-200 shadow-md px-6 py-4 flex justify-between items-center rounded">
+    <nav className="w-full bg-blue-200 shadow-md px-6 py-4 flex justify-between items-center rounded">
       <div className="flex space-x-6 text-lg font-medium ml-auto">
         <a
           href="/"
