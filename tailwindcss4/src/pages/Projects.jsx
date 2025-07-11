@@ -32,81 +32,92 @@ function Projects() {
         </p>
 
         {/* Mathematics Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Mathematics Projects</h2>
-
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Pell’s Equation </h3>
-            <p className="text-lg leading-relaxed">
-              Explored solutions to the <strong>Diophantine equation</strong> <code>x² - Dy² = 1</code> via <strong>continued fractions</strong>, wrote a formal paper, and delivered a presentation.
-            </p>
-            <img src={Pells} className="rounded shadow"/>
-            <p className="text-lg leading-relaxed text-gray-800">
-              <a
-                href={PellsWriteup}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Writeup
-              </a>{' '}
-              | {' '}
-              <a
-                href={PellsPresentation}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Presentation
-              </a>
-            </p>
-          </div>
-
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Proving Hopf’s Umlaufsatz Theorem</h3>
-            <p className="text-lg leading-relaxed">
-              Reviwed the necessary concepts from Algebraic Topology such as <strong>Covering Spaces</strong> and <strong>Homotopy Lifting</strong> to fill in the gap of the proof of <strong>Hopf's Umlaufsatz Theorem</strong> presented in class.
-            </p>
-            <img src={Homotopy} className="w-full rounded shadow"/>
-            <p className="text-lg leading-relaxed text-gray-800">
-              <a
-                href={HopfsWriteup}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Writeup
-              </a>
-            </p>
-          </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">PageRank and HITS algorithm</h3>
-            <p className="text-lg leading-relaxed">
-              Implemented <strong>PageRank</strong> and <strong>HITS</strong> algorithm and tested on large graphs supplied by Stanford Large Network Dataset Collection. Additionally, we experimented with <strong>damping factors</strong> and <strong>sink states</strong>. 
-            </p>
-            <p className="text-lg leading-relaxed text-gray-800">
-              <a
-                href={HITS}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Writeup
-              </a>
-            </p>
-            <img src={DirectedGraph} className="rounded shadow"/>
-          </div>
+        <section className="mb-20">
+          <h2 className="text-4xl font-semibold mb-4">Mathematics Projects</h2>
+          {/* Project 1 */}
+            <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-red-100 p-4">
+              <h3 className="text-3xl font-semibold">Pell’s Equation </h3>
+              <p className="text-lg leading-relaxed">
+                Explored solutions to the <strong>Diophantine equation</strong> <code>x² - Dy² = 1</code> via <strong>continued fractions</strong>, wrote a formal paper, and delivered a presentation.
+              </p>
+              <div className="flex justify-center">
+                <img src={Pells} className="w-150 rounded shadow"/>
+              </div>
+              <p className="text-lg leading-relaxed text-gray-800 pt-4">
+                <a
+                  href={PellsWriteup}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Writeup
+                </a>{' '}
+                | {' '}
+                <a
+                  href={PellsPresentation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Presentation
+                </a>
+              </p>
+            </div>
+            {/* Project 2 */}
+            <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-green-100 p-4">
+              <h3 className="text-3xl font-semibold">Proving Hopf’s Umlaufsatz Theorem</h3>
+              <p className="text-lg leading-relaxed">
+                Reviwed the necessary concepts from Algebraic Topology such as <strong>Covering Spaces</strong> and <strong>Homotopy Lifting</strong> to fill in the gap of the proof of <strong>Hopf's Umlaufsatz Theorem</strong> presented in class.
+              </p>
+              <div className="flex justify-center">
+                <img src={Homotopy} className="w-150 rounded shadow"/>
+              </div>
+              <p className="text-lg leading-relaxed text-gray-800 pt-4">
+                <a
+                  href={HopfsWriteup}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Writeup
+                </a>
+              </p>
+            </div>
+            {/* Project 3 */}
+            <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-blue-100 p-4">
+              <h3 className="text-3xl font-semibold">PageRank and HITS algorithm</h3>
+              <p className="text-lg leading-relaxed">
+                Implemented <strong>PageRank</strong> and <strong>HITS</strong> algorithm and tested on large graphs supplied by Stanford Large Network Dataset Collection. Additionally, we experimented with <strong>damping factors</strong> and <strong>sink states</strong>. 
+              </p>
+              <div className="flex justify-center">
+                <img src={DirectedGraph} className="w-150 rounded shadow"/>
+              </div>
+              <p className="text-lg leading-relaxed text-gray-800 pt-4">
+                <a
+                  href={HITS}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Writeup
+                </a>
+              </p>
+            </div>
         </section>
 
         {/* Computer Science Section */}
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Computer Science Projects</h2>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Cut Sparsifiers</h3>
+          <h2 className="text-4xl font-semibold mb-4">Computer Science Projects</h2>
+          {/* Project 1 */}
+          <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-red-100 p-4">
+            <h3 className="text-3xl font-semibold">Cut Sparsifiers</h3>
             <p className="text-lg leading-relaxed">
               Reviewed state of the art <strong>cut sparsifiers</strong> algorithms in the undirected setting with research directions.
             </p>
-            <p className="text-lg leading-relaxed text-gray-800">
+            <div className="flex justify-center">
+              <img src={GraphSparsifier} className="w-150 rounded shadow"/>
+            </div>
+            <p className="text-lg leading-relaxed text-gray-800 pt-4">
               <a
                 href={SparsifiersWriteup}
                 target="_blank"
@@ -125,82 +136,83 @@ function Projects() {
                 Presentation
               </a>
             </p>
-            <img src={GraphSparsifier} className="rounded shadow"/>
           </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Bitcoin Miner</h3>
+          {/* Proejct 2 */}
+          <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-green-100 p-4">
+            <h3 className="text-3xl font-semibold">Bitcoin Miner</h3>
             <p className="text-lg leading-relaxed">
               For distributed systems, we built a <strong>key-value server and client</strong> with various features such as <strong>heartbeat</strong> and <strong>windows</strong>. Then, in the second part we implemented bitcoin miners where we chunked jobs and greedily assigned them to available miners.
 
               We programmed in <strong>GoLang</strong> (very goofy mascot). I can't share any code but trust me lol.
             </p>
           </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">T-shirt Website &amp; Music Discord Bot</h3>
+          {/* Project 3 & 4 */}
+          <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-blue-100 p-4">
+            <h3 className="text-3xl font-semibold">T-shirt Website &amp; Discord Music Bot</h3>
             <p className="text-lg leading-relaxed">
               For UIUC SOSP 2022, I built a toy t-shirt <strong>website</strong> using <strong>HTML</strong> and <strong>Flask framework</strong> and Discord music bot using <strong>Python</strong> and <strong>Discord API</strong>.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <img src={Tshirt} className="rounded shadow"/>
+              <div className="flex flex-col items-center p-4">
+                <img src={Tshirt} className="w-150 rounded shadow"/>
                 <a
                   href="https://github.com/oramirez2025/T-web"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-600 hover:underline pt-4"
                 >
                   Github
                 </a>
               </div>
-              <div>
-                <img src={Discord} className="rounded shadow"/>
+              <div className="flex flex-col items-center p-4">
+                <img src={Discord} className="w-150 rounded shadow"/>
                 <a
                   href="https://github.com/oramirez2025/musicBot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-600 hover:underline pt-4"
                 >
                   Github
                 </a>
               </div>
             </div>
           </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Flappy Bird Reinforcement Learning</h3>
+          {/* Project 5 */}
+          <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-red-100 p-4">
+            <h3 className="text-3xl font-semibold">Flappy Bird Reinforcement Learning</h3>
             <p className="text-lg leading-relaxed">
               For my neural computation course, I implemented a flappy bird agent with <strong> Q-learning</strong>.
             </p>
             <p className="text-lg leading-relaxed text-gray-800">
-              <a
-                href="https://github.com/oramirez2025/Binding-of-Isaac-Replica/tree/main"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Github
-              </a>
-              <video className="h-150 w-full rounded-lg" controls width="1280">
-                <source src={Flappy} type="video/mp4"/>
-              </video>
+              <div className="flex justify-center">
+                <video className="h-full w-150 rounded-lg" controls width="1280">
+                  <source src={Flappy} type="video/mp4"/>
+                </video>
+              </div>
             </p>
           </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold">Binding of Isaac Replica</h3>
+          {/* Project 6 */}
+          <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-green-100 p-4">
+            <h3 className="text-3xl font-semibold">Binding of Isaac Replica</h3>
             <p className="text-lg leading-relaxed">
               For my introductory CS course, I built a replica of an old game Binding of Isaac with interesting features such as <strong>A* algorithm</strong> and <strong>graphics</strong>.
             </p>
             <p className="text-lg leading-relaxed text-gray-800">
-              <a
-                href="https://github.com/oramirez2025/Binding-of-Isaac-Replica/tree/main"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Github
-              </a>
-              <video className="h-150 w-full rounded-lg" controls width="1280">
-                <source src={Binding} type="video/mp4"/>
-              </video>
+              <div className="flex justify-center">
+                <video className="h-full w-150 rounded-lg" controls width="1280">
+                  <source src={Binding} type="video/mp4"/>
+                </video>
+              </div>
+              <div className="pt-4">
+                <a
+                  href="https://github.com/oramirez2025/Binding-of-Isaac-Replica/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Github
+                </a>
+              </div>
             </p>
           </div>
         </section>
