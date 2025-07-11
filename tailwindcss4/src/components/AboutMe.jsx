@@ -23,7 +23,7 @@ function AboutMe() {
             </p>
 
             <p>
-              I recently graduated from <b>Carnegie Mellon University</b> with a Bachelor Degree in 
+              I recently graduated from <b>Carnegie Mellon University</b> with a Bachelor's Degree in 
               <b> Computer Science</b>, additional major in <b>Mathematical Sciences</b>, and concentration in <b>Algorithms and Complexity</b>.
             </p>
 
