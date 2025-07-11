@@ -15,7 +15,7 @@ export default function ResearchPage() {
           {/* FIReVision Section */}
           <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-red-100 p-4">
             <h2 className="text-3xl font-semibold">FIReVision</h2>
-            <p className="text-lg font-medium text-gray-700">
+            <p className="text-xl font-semibold text-gray-700">
               Robotics Institute AirLab, <strong>Spring 2023 – Fall 2023</strong>
             </p>
             <p className="text-lg leading-relaxed text-gray-800 pb-4">
@@ -66,7 +66,7 @@ export default function ResearchPage() {
           <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-green-100 p-4">
             <div>
               <h2 className="text-3xl font-semibold">Trochoids</h2>
-              <p className="text-lg font-medium text-gray-700">
+              <p className="text-xl font-semibold text-gray-700">
               Robotics Institute AirLab, <strong>Fall 2023 – Present</strong>
               </p>
               <p className="text-lg leading-relaxed text-gray-800 pb-4">
@@ -120,7 +120,7 @@ export default function ResearchPage() {
           {/* Directed Cut Sparsifiers Section */}
           <div className="mb-20 border-gray-300 rounded-2xl shadow-md bg-blue-100 p-4">
             <h2 className="text-3xl font-semibold mb-2">Directed Cut Sparsifiers Characterized by Balance</h2>
-            <p className="text-lg font-medium text-gray-700">
+            <p className="text-xl font-semibold text-gray-700">
               CMU, <strong>Spring 2025 – Present</strong>
             </p>
             <p className="text-lg leading-relaxed text-gray-800">
