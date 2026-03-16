@@ -28,12 +28,10 @@ function AboutMe() {
             </p>
 
             <p>
-              Right now I'm at the crossroads between academia and industry. However, I'm mainly concerned with learning new things. Therefore, I'm open to any opportunity and I hope to find a job soon!
+              I recently was a teaching assistant for Code Platoon's bootcamp for veterans, and I'm now looking for a full-time role as a software engineer.
             </p>
             <p>
               Here's my <a href={resume} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">resume</a> / <a href={cv} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">CV</a>.
-            </p>
-            <p>I'm thinking of adding more to the website like a hobbies page with music and games. Back in the summer of 2023, I got into music production so I'll probably include my soundcloud (if I build up the courage lol). Also, my friend introduced me to the game of StepMania and I've been playing that frequently.
             </p>
             <p>
               If you find any typos or issues with the website please let me know!
